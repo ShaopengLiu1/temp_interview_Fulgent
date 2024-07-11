@@ -1,0 +1,13 @@
+name: bam_cov
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - samtools
+  - bedtools
+  - pip
+  - pip:
+    - pandas
+    - numpy
